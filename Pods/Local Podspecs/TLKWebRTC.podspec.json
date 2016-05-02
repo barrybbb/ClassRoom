@@ -1,0 +1,23 @@
+{
+  "name": "TLKWebRTC",
+  "version": "2.1.0",
+  "summary": "A helper for creating and managing WebRTC connections",
+  "homepage": "https://github.com/otalk/TLKWebRTC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jon Hjelle": "hjon@andyet.com",
+    "&yet": "contact@andyet.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/otalk/TLKWebRTC.git",
+    "tag": "2.1.0"
+  },
+  "source_files": "Classes/*.{h,m}",
+  "requires_arc": true
+}

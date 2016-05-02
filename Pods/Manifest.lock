@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AZSocketIO (0.0.6):
+    - AFNetworking (~> 2.x)
+    - SocketRocket (~> 0.x)
+  - libjingle_peerconnection (11177.2.0)
+  - SocketRocket (0.5.0)
+  - TLKSimpleWebRTC (1.0.1):
+    - AZSocketIO (= 0.0.6)
+  - TLKWebRTC (2.1.0)
+
+DEPENDENCIES:
+  - libjingle_peerconnection (from `~/Downloads/libjingle/libWebRTC_11177`)
+  - TLKSimpleWebRTC (from `https://github.com/otalk/TLKSimpleWebRTC.git`)
+  - TLKWebRTC (from `https://github.com/otalk/TLKWebRTC.git`)
+
+EXTERNAL SOURCES:
+  libjingle_peerconnection:
+    :path: ~/Downloads/libjingle/libWebRTC_11177
+  TLKSimpleWebRTC:
+    :git: https://github.com/otalk/TLKSimpleWebRTC.git
+  TLKWebRTC:
+    :git: https://github.com/otalk/TLKWebRTC.git
+
+CHECKOUT OPTIONS:
+  TLKSimpleWebRTC:
+    :commit: 4dcd135b90a25005a1f19bcb4444588b00920fa6
+    :git: https://github.com/otalk/TLKSimpleWebRTC.git
+  TLKWebRTC:
+    :commit: 9d5f8dfc9791fe9e541a5ad69b8b763fdbbc94d3
+    :git: https://github.com/otalk/TLKWebRTC.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AZSocketIO: 135d76d11e90a0b7509f0f64d448fc8d0cd96e4f
+  libjingle_peerconnection: 3458f646ddd61f08a9f3a0c43fb01fff5c165eb8
+  SocketRocket: 2c51efccd2d73c99a923407ca4b06e7e9da95dbf
+  TLKSimpleWebRTC: d12305df32e7c906874fc9ba305c69eaa78f1962
+  TLKWebRTC: ac347a4b53024a2e81ff843d3e984bb1337d3d79
+
+COCOAPODS: 0.39.0
